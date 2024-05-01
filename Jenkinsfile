@@ -4,7 +4,14 @@ pipeline {
         stage('build') {
             steps {
                 echo "Hello World!"
+         }
+     }
+     stages {
+        stage('CM') {
+            steps {
+                echo "goodbye World!"
             }
         }
     }
 }
+
