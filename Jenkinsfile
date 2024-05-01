@@ -7,11 +7,12 @@ pipeline {
          }
      }
      stages {
-        stage('CM') {
+        stage('test') {
             steps {
                 echo "goodbye Eslam!"
             }
         }
     }
+}
 }
 
