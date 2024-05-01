@@ -4,9 +4,10 @@ pipeline {
         stage('build') {
             steps {
                 echo "Hello World!"
-         }
-     }
-     stages {
+            }
+        }
+    }
+    stages {
         stage('test') {
             steps {
                 echo "goodbye Eslam!"
@@ -14,5 +15,3 @@ pipeline {
         }
     }
 }
-}
-
