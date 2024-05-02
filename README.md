@@ -56,9 +56,9 @@ pipeline {
 }
 ```
 
-![jenkins successeful Pipeline](images/jenkins1.png)
+![jenkins successeful Pipeline](Images/jenkins1.png)
 
-![jenkins webhook trigger Pipeline](images/jenkins2.png)
+![jenkins webhook trigger Pipeline](Images/jenkins2.png)
 
 
 This script simply prints "Hello, World!" during the pipeline execution.
